@@ -63,6 +63,6 @@ It follows this steps:</p>
 
 ## Acknowledgements and contributions
 
-Yes, I aknowledge and contribute
+Yes, I aknowledge and contribute.
 
 
