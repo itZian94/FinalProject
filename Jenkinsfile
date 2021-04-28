@@ -34,12 +34,12 @@ pipeline {
               
             }                                            
         }
-        stage('Stage 3: Config'){
-            steps{                                  // NEEDS ANSIBLE
+        // stage('Stage 3: Config'){
+        //     steps{                                  // NEEDS ANSIBLE
 
-                sh "/home/jenkins/.local/bin/ansible-playbook -i inventory.yaml playbook.yaml "
-            }
-        }
+        //         sh "/home/jenkins/.local/bin/ansible-playbook -i inventory.yaml playbook.yaml "
+        //     }
+        // }
 
 
         stage('Stage 4: Deploy'){                        //     TO BE DONE
