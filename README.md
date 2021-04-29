@@ -64,8 +64,3 @@ It follows this steps:</p>
 ## Acknowledgements and contributions
 
 Yes, I aknowledge and contribute.
-Very much
-
-Hey yo!adfdsaf
-
-sdfasgg
