@@ -60,5 +60,5 @@ testem.log
 Thumbs.db
 *.iml
 
-# Hiding folder images
+# Hiding folder images from contributor
 /images
