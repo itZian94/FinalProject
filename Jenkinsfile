@@ -10,28 +10,26 @@ pipeline{
         nodejs 'node 15.11'
     }
     stages {
-        stage('Test Backend') {
+        stage('Stage 1 - Build Backend') {
             steps {
                 script {
-                        sh 'bash jenkins/test-backend.sh'
+                        sh 'sudo docker run -d -p 9966:9966 --name backend springcommunity/spring-petclinic-rest'
                 }
             }
         }
-        stage('Test Frontend') {
+        stage('Stage 2 - Build Frontend') {
             steps {
                 script {
-                    nodejs(nodeJSInstallationName: 'node 15.11') {
-                        sh 'bash jenkins/test-frontend.sh'
-                    }
+                        sh 'sudo docker run -d --rm -p 8083:8080 frontend'
                 }
             }
-        }
-       stage('Deploy') {
-            steps {
-                script {
-                        sh 'bash jenkins/deploy.sh'
-                }
-            }
-        }
+
+    //    stage('Deploy') {
+    //         steps {
+    //             script {
+    //                     sh 'bash jenkins/deploy.sh'
+    //             }
+    //         }
+    //     }
     }
 }
