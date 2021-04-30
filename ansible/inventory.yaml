@@ -1,6 +1,5 @@
 # all:
 #   hosts:
-#     nginx:
 #   children:
 #     manager:
 #       hosts:

@@ -6,6 +6,3 @@
 #   roles:
 #   - docker
 #   - deathstar-worker
-# - hosts: nginx
-#   roles: 
-#   - nginx

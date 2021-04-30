@@ -1,4 +1,3 @@
-
 # Final project
 
 Text
@@ -7,7 +6,7 @@ Text
 
 Text
 
-# Test Analysis ????????
+# Test Analysis 
 
 Text
 
@@ -23,7 +22,7 @@ This is a link to my [Trello][MyTrello]! Board:
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
-# Database ??????
+# Database 
 
 Text
 
