@@ -19,11 +19,9 @@ Text
 
 ![My Trello Board](newimagelink)
 
-This is a link to my Trello Board:
+This is a link to my [Trello][MyTrello]! Board:
 
-[Click me][MyTrello]
-
-[MyTrello]:  https://trello.com/b/0i1GmcuQ/final-project
+[MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
 # Database ??????
 
