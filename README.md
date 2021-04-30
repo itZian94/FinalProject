@@ -1,19 +1,19 @@
 
 # Final project
 
-
+Text
 
 # Requirements
 
-
+Text
 
 # Test Analysis ????????
 
-
+Text
 
 # Tech Stack used
 
-
+Text
 
 # Trello Board
 
@@ -25,13 +25,13 @@ This is a link to my Trello Board:
 
 [MyTrello]:  https://trello.com/b/0i1GmcuQ/final-project
 
-
 # Database ??????
 
-
-
+Text
 
 # Software Architecture
+
+Text
 
 # Pipeline
 
