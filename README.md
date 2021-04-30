@@ -1,59 +1,51 @@
 
-# Final project Karen Was Here, So was Ian
+# Final project
 
-<br><br>
+Text
 
-## --Requirements
-<br>
+# Requirements
 
+Text
 
-## --Test Analysis ????????
+# Test Analysis ????????
 
+Text
 
-<br>
+# Tech Stack used
 
-## --Tech Stack used
-<br>
-<p>
+Text
 
-</p>
+# Trello Board
 
-## --Trello Board
+![My Trello Board](images/TrelloBoard.jpg)
 
-![My Trello Board](newimagelink)
+This is a link to my [Trello][MyTrello]! Board:
 
-<br>
-This is a link to my Trello Board:
+[MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
-[Click me][MyTrello]
+# Database ??????
 
-[MyTrello]:  https://trello.com/b/0i1GmcuQ/final-project
+Text
 
-<br>
+# Software Architecture
 
-## --Database ??????
+Text
 
-<br>
+# Pipeline
 
+![Development Pipeline](images/FinalProjectPipeline.jpg)
 
-## --Software Architecture
-<br>
+Here is an Image of our pipeline
 
+# CI/CD pipeline
 
-## --CI/CD pipeline
-<br>
 The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.<br>
-<p>
+
 It follows this steps:</p>
 
 ![Microservice Flowchart](image.jpg)
 
-
-
 # Risk Analysis
-<hr>
-
-
 
 
 | Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
@@ -61,10 +53,18 @@ It follows this steps:</p>
 | Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
 
 
-## Acknowledgements and contributions
+# Acknowledgements and contributions
 
-Yes
+
+Docker-compose ?? (Probably not)
 
 No
 
+Terraform 2
+Ansible 3
+Kubernetes 4 (Next week) 
+AWS 1
 
+
+
+Yes, I aknowledge and contribute.
