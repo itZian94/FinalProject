@@ -65,6 +65,6 @@ Ansible 3
 Kubernetes 4 (Next week) 
 AWS 1
 
-GitHub
+
 
 Yes, I aknowledge and contribute.
