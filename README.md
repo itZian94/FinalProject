@@ -1,5 +1,5 @@
 
-# Final project Karen Was Here, So was Ian
+# Final project
 
 <br><br>
 
