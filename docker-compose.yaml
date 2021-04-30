@@ -12,7 +12,7 @@ version: "3"
       image: snakecharmer2021/frontend:latest
       build: ./spring-petclinic-angular
       ports:
-      - "8080:8080"
+      - "8080:8083"
     nginx:
       image: snakecharmer2021/nginx
       build: ./kubernetes/nginx
