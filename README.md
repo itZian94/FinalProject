@@ -33,7 +33,7 @@ Text
 
 # Pipeline
 
-![Development Pipeline](/images/FinalProjectPipeline.jpg)
+![Development Pipeline](images/FinalProjectPipeline.jpg)
 
 Here is an Image of our pipeline
 
