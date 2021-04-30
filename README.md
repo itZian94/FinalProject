@@ -17,7 +17,7 @@ Text
 
 # Trello Board
 
-![My Trello Board](newimagelink)
+![My Trello Board](images/TrelloBoard.jpg)
 
 This is a link to my [Trello][MyTrello]! Board:
 
@@ -33,7 +33,7 @@ Text
 
 # Pipeline
 
-![Development Pipeline](/images/FinalProjectPipeline.jpg)
+![Development Pipeline](images/FinalProjectPipeline.jpg)
 
 Here is an Image of our pipeline
 
@@ -55,22 +55,16 @@ It follows this steps:</p>
 
 # Acknowledgements and contributions
 
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 Docker-compose ?? (Probably not)
-=======
-No
 
->>>>>>> 4148ffb7d34b9f6bfafd5449b9ea294fad92fc52
+No
 
 Terraform 2
 Ansible 3
 Kubernetes 4 (Next week) 
 AWS 1
 
-GitHub
-=======
-Yes, I aknowledge and contribute.
 
->>>>>>> 933641cb4096d5f102371c75574b59d1d8027091
+
+Yes, I aknowledge and contribute.
