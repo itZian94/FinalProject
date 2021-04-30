@@ -3,22 +3,22 @@
 
 <br><br>
 
-## --Requirements
+# Requirements
 <br>
 
 
-## --Test Analysis ????????
+# Test Analysis ????????
 
 
 <br>
 
-## --Tech Stack used
+# Tech Stack used
 <br>
 <p>
 
 </p>
 
-## --Trello Board
+# Trello Board
 
 ![My Trello Board](newimagelink)
 
@@ -31,16 +31,21 @@ This is a link to my Trello Board:
 
 <br>
 
-## --Database ??????
+# Database ??????
 
 <br>
 
 
-## --Software Architecture
+# Software Architecture
 <br>
 
+# Pipeline
 
-## --CI/CD pipeline
+![Development Pipeline](/images/FinalProjectPipeline.jpg)
+
+Here is an Image of our pipeline
+
+# CI/CD pipeline
 <br>
 The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.<br>
 <p>
@@ -61,7 +66,7 @@ It follows this steps:</p>
 | Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
 
 
-## Acknowledgements and contributions
+# Acknowledgements and contributions
 
 Yes
 
