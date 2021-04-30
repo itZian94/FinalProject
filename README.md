@@ -63,9 +63,12 @@ It follows this steps:</p>
 
 ## Acknowledgements and contributions
 
-Yes, I aknowledge and contribute.
-Very much
 
-Hey yo!adfdsaf
+Docker-compose ?? (Probably not)
 
-sdfasgg
+Terraform 2
+Ansible 3
+Kubernetes 4 (Next week) 
+AWS 1
+
+GitHub
