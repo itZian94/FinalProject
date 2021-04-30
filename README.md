@@ -17,7 +17,7 @@ Text
 
 # Trello Board
 
-![My Trello Board](newimagelink)
+![My Trello Board](images/TrelloBoard.jpg)
 
 This is a link to my [Trello][MyTrello]! Board:
 
