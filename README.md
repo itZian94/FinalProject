@@ -63,6 +63,7 @@ It follows this steps:</p>
 
 ## Acknowledgements and contributions
 
+<<<<<<< HEAD
 
 Docker-compose ?? (Probably not)
 
@@ -72,3 +73,7 @@ Kubernetes 4 (Next week)
 AWS 1
 
 GitHub
+=======
+Yes, I aknowledge and contribute.
+
+>>>>>>> 933641cb4096d5f102371c75574b59d1d8027091
