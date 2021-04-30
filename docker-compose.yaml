@@ -1,0 +1,21 @@
+  
+version: "3"
+  
+  services:
+    backend:
+      image: snakecharmer2021/backend:latest
+      build: ./spring-petclinic-rest
+      ports:
+      - "9966:9966"
+  
+    frontend:
+      image: snakecharmer2021/frontend:latest
+      build: ./spring-petclinic-angular
+      ports:
+      - "8080:8080"
+    nginx:
+      image: snakecharmer2021/nginx
+      build: ./kubernetes/nginx
+      ports:
+        - 80:80
+      container_name: nginx

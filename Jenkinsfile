@@ -1,53 +1,37 @@
-pipeline {
+pipeline{
     agent any
-
-    // environment{
-    //         DATABASE_CREDENTIALS = credentials("CREDENTIALS")
-    //         PASSWD = credentials("PASSWD")
-            
-    // }            PROBABLY NECCESSARY AT SOME POINT
-
-    stages{
-
-        // stage('Stage 0: Test'){
-        //     steps{
-               
-        //         sh "bash testing.sh"             TERRAFORM ???
-
-        //     }
-        // }
-
-        // stage('Stage 1: Build'){
-        //     steps{
-
-        //         sh "docker-compose build"
-        //         sh "docker-compose up -d"          /* PROBABLY NO NEED TO TOUCH THIS LINES  */
-
-        //     }
-        // }
-
-        stage('Stage 2: Push'){
-            steps{
-                
-                sh "docker ps && docker images"                                             //  PULLS FROM DOCKERHUB AND
-                sh "sudo docker run -d -p 9966:9966 springcommunity/spring-petclinic-rest "  //  RUNS BACKEND CONTAINER
-              
-            }                                            
+        environment {
+        AWS_ACCESS_KEY_ID = credentials('ACCESS_KEY')
+        AWS_SECRET_ACCESS_KEY = credentials('SECRET_ACCESS_KEY')
+    }
+    tools {
+        maven 'Maven 3.6.3'
+        jdk 'jdk9'
+        nodejs 'node 15.11'
+    }
+    stages {
+        stage('Test Backend') {
+            steps {
+                script {
+                        sh 'bash jenkins/test-backend.sh'
+                }
+            }
         }
-        // stage('Stage 3: Config'){
-        //     steps{                                  // NEEDS ANSIBLE
-
-        //         sh "/home/jenkins/.local/bin/ansible-playbook -i inventory.yaml playbook.yaml "
-        //     }
-        // }
-
-
-        // stage('Stage 4: Deploy'){                        //     TO BE DONE WITH KUBERNETES
-        //     steps{
-
-        //         sh "docker stack deploy --compose-file docker-compose.yaml Sentencer"
-                
-        //     }
-        // }
+        stage('Test Frontend') {
+            steps {
+                script {
+                    nodejs(nodeJSInstallationName: 'node 15.11') {
+                        sh 'bash jenkins/test-frontend.sh'
+                    }
+                }
+            }
+        }
+       stage('Deploy') {
+            steps {
+                script {
+                        sh 'bash jenkins/deploy.sh'
+                }
+            }
+        }
     }
 }
