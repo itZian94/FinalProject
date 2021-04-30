@@ -1,0 +1,11 @@
+version 0.2
+
+phases:
+  build:
+    commands:
+      - echo Building the app
+      - docker build -t spring-petclinic-angular:latest .
+  # post_build:
+  #   commands:
+  #     - echo Build completed
+  #     - echo Pushing Docker Image
