@@ -6,8 +6,8 @@ ARG NPM_REGISTRY=" https://registry.npmjs.org"
 
 RUN echo "registry = \"$NPM_REGISTRY\"" > /workspace/.npmrc                              && \
     cd /workspace/                                                                       && \
-    npm install   
-    npm update                                                                       && \
+    npm install                                                                          && \
+    npm update                                                                           && \
     npm run build
 
 FROM docker.io/library/nginx:1.17.6 as runtime
