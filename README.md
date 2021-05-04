@@ -55,9 +55,7 @@ It follows this steps:</p>
 # Acknowledgements and contributions
 
 
-Docker-compose ?? (Probably not)
-
-No
+Docker-compose ?? 
 
 Terraform 2
 Ansible 3
