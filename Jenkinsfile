@@ -32,6 +32,7 @@ pipeline {
                 sh "docker ps && docker images"                                             //  PULLS FROM DOCKERHUB AND
                 sh "docker-compose build " 
                 sh "docker-compose up -d"
+                sh "docker-compose down"
               
             }                                            
         }
