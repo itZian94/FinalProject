@@ -22,8 +22,6 @@ This is a link to my [Trello][MyTrello]! Board:
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
-# Database 
-
 # Pipeline
 
 ![Development Pipeline](images/FinalProjectPipeline.jpg)
