@@ -8,7 +8,7 @@ pipeline {
         }
        stage('1 - Building'){
            steps{
-               sh "docker ps && docker images"                                             
+               sh "docker ps"                                             
                sh 'sudo docker-compose build' 
            }
        }
