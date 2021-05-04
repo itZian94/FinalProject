@@ -40,7 +40,7 @@ Text
 
 # Risk Assessment
 
-![Risk Assessment](image.jpg)
+![Risk Assessment](/images/RiskAssessment.jpg)
 
 Here is our risk assessments deatailing all the risks that have and will be encountered during this project.
 
