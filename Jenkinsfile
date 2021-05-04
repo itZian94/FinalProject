@@ -30,7 +30,7 @@ pipeline {
             steps{
                 
                 sh "docker ps && docker images"                                             //  PULLS FROM DOCKERHUB AND
-                // sh " " 
+                sh "docker-compose build " 
               
             }                                            
         }
