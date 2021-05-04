@@ -8,12 +8,6 @@ One of the purposes of this project was for us to experience working to complete
 
 You will need to plan, design, and implement a solution for automating the development workflows and deployments of this application. As part of your final deliverable, you will need to discuss the project in a presentation and demonstrate these workflows.
 
-<<<<<<< HEAD
-Using what you have learned consider the following:
-=======
-# Test Analysis 
->>>>>>> Dan
-
 What tools will work for you best? For example: Terraform, Kubernetes, Ansible etc. There is no restrictions or requirements on which ones to use; you should decide which you feel are most appropriate and justify their use.
 
 Multiple Environment support: How can a developer test their new features on an environment before merging their changes to the main branch?
@@ -26,13 +20,9 @@ Running costs. What are your monthly estimates? How could they be improved?
 
 ![My Trello Board](images/TrelloBoard.jpg)
 
-<<<<<<< HEAD
 My trello board progression, with a link to the most recent version [here][MyTrello]!!
 
 This shows you my backlog of tasks, what is currently being worked on and also what has been completed.
-=======
-This is a link to my [Trello][MyTrello]! Board:
->>>>>>> Dan
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
@@ -46,7 +36,6 @@ The pipeline is automated with a Webhook from github and integrated using a Jenk
 
 # Test Results?
 
-<<<<<<< HEAD
 Text
 
 # Risk Assessment
@@ -58,11 +47,3 @@ Here is our risk assessments deatailing all the risks that have and will be enco
 # Refrences
 
 Text
-=======
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
-| :---        | :----:   |  :----:     |  :----:      |  :----:        |  :----:    |---:
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
-
-
-# Acknowledgements and contributions
->>>>>>> Dan
