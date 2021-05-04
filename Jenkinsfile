@@ -30,7 +30,7 @@ pipeline {
             steps{
                 
                 sh "docker ps && docker images"                                             //  PULLS FROM DOCKERHUB AND
-                sh "sudo docker run -d -p 9966:9966 springcommunity/spring-petclinic-rest "  //  RUNS BACKEND CONTAINER
+                // sh " " 
               
             }                                            
         }
