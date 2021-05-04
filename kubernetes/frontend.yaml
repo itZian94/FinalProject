@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: snakecharmer2021/frontend:latest
+        image: ddiazsouto/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
