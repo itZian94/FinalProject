@@ -16,29 +16,15 @@ How can changes on the GitHub repository automatically build and deploy to testi
 
 Running costs. What are your monthly estimates? How could they be improved?
 
-# Test Analysis ????????
-
-Text
-
-# Tech Stack used
-
-Text
-
 # Trello Board
 
 ![My Trello Board](images/TrelloBoard.jpg)
 
-This is a link to my [Trello][MyTrello]! Board:
+My trello board progression, with a link to the most recent version [here][MyTrello]!!
+
+This shows you my backlog of tasks, what is currently being worked on and also what has been completed.
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
-
-# Database ??????
-
-Text
-
-# Software Architecture
-
-Text
 
 # Pipeline
 
@@ -46,34 +32,18 @@ Text
 
 Here is an Image of our pipeline, this diagram shows how we have organised the repo and then how one the application files have been pushed to main how they then filter through the said technologies we have used.
 
-# CI/CD pipeline
+The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.
 
-The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.<br>
+# Test Results?
 
-It follows this steps:</p>
+Text
 
-![Microservice Flowchart](image.jpg)
+# Risk Assessment
 
-# Risk Analysis
+![Risk Assessment](image.jpg)
 
+Here is our risk assessments deatailing all the risks that have and will be encountered during this project.
 
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
-| :---        | :----:   |  :----:     |  :----:      |  :----:        |  :----:    |---:
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
+# Refrences
 
-
-# Acknowledgements and contributions
-
-
-Docker-compose ?? (Probably not)
-
-No
-
-Terraform 2
-Ansible 3
-Kubernetes 4 (Next week) 
-AWS 1
-
-
-
-Yes, I aknowledge and contribute.
+Text
