@@ -28,7 +28,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEKSServicePolicy" {
 }
 
 resource "aws_eks_cluster" "aws_eks" {
-  name     = "eks_cluster_tuto"
+  name     = "final_project_cluster"
   role_arn = aws_iam_role.eks_cluster.arn
 
   vpc_config {
@@ -43,7 +43,7 @@ resource "aws_eks_cluster" "aws_eks" {
 }
 
 resource "aws_iam_role" "eks_nodes" {
-  name = "eks-node-group-tuto"
+  name = "final_project_node"
 
   assume_role_policy = <<POLICY
 {
@@ -78,7 +78,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly" {
 
 resource "aws_eks_node_group" "node" {
   cluster_name    = aws_eks_cluster.aws_eks.name
-  node_group_name = "node_tuto"
+  node_group_name = "node_final_project"
   node_role_arn   = aws_iam_role.eks_nodes.arn
   subnet_ids      = ["subnet-28b23564", "subnet-13f68769", "subnet-0d89bc64"]
 
