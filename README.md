@@ -44,6 +44,5 @@ Text
 
 Here is our risk assessments deatailing all the risks that have and will be encountered during this project.
 
-# Refrences
 
-Text
+# Refrences
