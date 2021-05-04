@@ -17,20 +17,18 @@ pipeline {
         //     }
         // }
 
-        // stage('Stage 1: Build'){
-        //     steps{
-
-        //         sh "docker-compose build"
-        //         sh "docker-compose up -d"          /* PROBABLY NO NEED TO TOUCH THIS LINES  */
-
-        //     }
-        // }
-
-        stage('Stage 2: Push'){
+        stage('Stage 1: Build'){
             steps{
-                
+
                 sh "docker ps && docker images"                                             //  PULLS FROM DOCKERHUB AND
                 sh "docker-compose build " 
+
+            }
+        }
+
+        stage('Stage 2: Push'){
+            steps{                
+
                 sh "docker-compose up -d"
                 sh "docker-compose down"
               
