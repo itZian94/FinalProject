@@ -30,7 +30,7 @@ pipeline {
             steps{
                 
                 sh "docker ps && docker images"         // Here we push to DockerHub 
-                sh "docker-compose push "            
+                sh "docker-compose down"            
               
             }                                            
         }
