@@ -11,7 +11,7 @@ pipeline {
                sh "docker-compose build"                                             
            }
        }
-        stage('2 - Push to DockerHub'){
+        stage('2 - Pushing to DockerHub'){
            steps{                                             
                sh "docker-compose push"
            }
