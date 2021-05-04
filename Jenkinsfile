@@ -8,7 +8,8 @@ pipeline {
         }
        stage('1 - Building'){
            steps{
-               sh 'docker-compose build' 
+               sh "docker ps && docker images"                                             
+               sh 'sudo docker-compose build' 
            }
        }
 //        stage('Orchestration with Terraform'){
