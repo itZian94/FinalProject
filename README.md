@@ -26,10 +26,6 @@ This is a link to my [Trello][MyTrello]! Board:
 
 Text
 
-# Software Architecture
-
-Text
-
 # Pipeline
 
 ![Development Pipeline](images/FinalProjectPipeline.jpg)
