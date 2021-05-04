@@ -1,0 +1,34 @@
+version: "3.8"
+services:
+
+    backend:
+        image: docker.io/springcommunity/spring-petclinic-rest:latest
+
+        # deploy:
+        #   replicas: 7
+        ports:
+        - target: 9966
+          published: 9966
+          protocol: tcp
+
+    frontend:
+        build: ./spring-petclinic-angular/
+        image: ddiazsouto/frontend
+        # deploy:
+        #   replicas: 4
+        ports:
+        - target: 8080
+          published: 8083
+          protocol: tcp
+        # deploy:
+        #   replicas: 10
+
+          #   rest:
+          #image: docker.io/springcommunity/spring-petclinic-rest
+        #build: springcommunity/spring-petclinic-rest
+        # deploy:
+        #   replicas: 7
+        #ports:
+        #- target: 9966
+        #  published: 9966
+        #  protocol: tcp
