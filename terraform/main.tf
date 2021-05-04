@@ -38,7 +38,7 @@ resource "aws_eks_cluster" "aws_eks" {
   }
 
   tags = {
-    Name = "EKS_tuto"
+    Name = "EKS_Final_Project"
   }
 }
 
