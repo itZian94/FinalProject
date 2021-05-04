@@ -6,9 +6,13 @@ pipeline {
                 sh 'bash jenkins/configuration.sh'
             }
         }
-       stage('1 - Building'){
+        stage('1 - Building'){
            steps{
                sh "docker-compose build"                                             
+           }
+       }
+        stage('2 - Push to DockerHub'){
+           steps{                                             
                sh "docker-compose push"
            }
        }
