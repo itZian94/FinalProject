@@ -53,11 +53,3 @@ It follows this steps:</p>
 
 
 # Acknowledgements and contributions
-
-
-Docker-compose
-
-Terraform 2
-Ansible 3
-Kubernetes 4 (Next week) 
-AWS 1
