@@ -25,7 +25,7 @@ pipeline {
        stage('4 - Deployment with Kubernetes'){
            steps{        
                sh "echo 'Here kubernetes deploys the aplication'"        
-            //    sh 'bash jenkins/deploy.sh'
+               sh 'bash jenkins/deploy.sh'
            }                                            
        }
     }
