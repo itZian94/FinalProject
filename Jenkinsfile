@@ -18,13 +18,13 @@ pipeline {
        }
        stage('3 - Orchestration with Terraform'){
            steps{
-               sh "echo 'Here Terraform is setting up the k8s cluster'"
+               sh "echo 'Here Terraform is setting up the K8s cluster'"
                sh 'bash jenkins/orchestration.sh' 
            }
        }
        stage('4 - Deployment with Kubernetes'){
            steps{        
-               sh "echo 'Here kubernetes deploys the aplication'"        
+               sh "echo 'Here Kubernetes deploys the application'"        
                sh 'bash jenkins/deploy.sh'
            }                                            
        }
