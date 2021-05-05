@@ -9,7 +9,8 @@ cd kubernetes
 kubectl apply -f backend.yaml
 kubectl apply -f frontend.yaml
 kubectl apply -f nginxService.yaml
-kubectl apply -f ./ngnix/nginxDeployment.yaml
+kubectl apply -f ./nginx/configmap.yaml
+kubectl apply -f ./nginx/nginxDeployment.yaml
 
 kubectl get pod -o wide
 kubectl get events
