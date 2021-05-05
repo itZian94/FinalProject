@@ -32,7 +32,7 @@ resource "aws_eks_cluster" "aws_eks" {
   role_arn = aws_iam_role.eks_cluster.arn
 
   vpc_config {
-    subnet_ids              = ["subnet-0bc5c0a84e353533b", "subnet-043f908c78fbd4045"]
+    subnet_ids              = ["subnet-0bc5c0a84e353533b", "subnet-0f44e1911472d0957"]
     endpoint_private_access = true
     endpoint_public_access  = true
   }
@@ -80,7 +80,7 @@ resource "aws_eks_node_group" "node" {
   cluster_name    = aws_eks_cluster.aws_eks.name
   node_group_name = "node_final_project"
   node_role_arn   = aws_iam_role.eks_nodes.arn
-  subnet_ids      = ["subnet-0bc5c0a84e353533b", "subnet-043f908c78fbd4045"]
+  subnet_ids      = ["subnet-0bc5c0a84e353533b", "subnet-0f44e1911472d0957"]
 
   scaling_config {
     desired_size = 2
