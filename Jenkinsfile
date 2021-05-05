@@ -18,7 +18,7 @@ pipeline {
        }
        stage('3 - Orchestration with Terraform'){
            steps{
-               sh "echo 'Here Terraform is setting up the k8s cluster"
+               sh "echo 'Here Terraform is setting up the k8s cluster'"
             //    sh 'bash jenkins/orchestration.sh' 
            }
        }
