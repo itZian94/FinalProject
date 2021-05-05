@@ -78,7 +78,7 @@ resource "aws_iam_role_policy_attachment" "AmazonEC2ContainerRegistryReadOnly" {
 
 resource "aws_eks_node_group" "node" {
   cluster_name    = aws_eks_cluster.aws_eks.name
-  node_group_name = "node_final_project"
+  node_group_name = "final_project_node"
   node_role_arn   = aws_iam_role.eks_nodes.arn
   subnet_ids      = ["subnet-0bc5c0a84e353533b", "subnet-0f44e1911472d0957"]
 
