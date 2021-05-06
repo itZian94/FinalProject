@@ -20,7 +20,7 @@ Running costs. What are your monthly estimates? How could they be improved?
 
 ![My Trello Board](images/TrelloBoard.jpg)
 
-My trello board progression, with a link to the most recent version [here][MyTrello]!!
+My trello board progression, with a link to the most recent version [here][MyTrello]!
 
 This shows you my backlog of tasks, what is currently being worked on and what has been completed.
 
@@ -44,6 +44,8 @@ Here is our risk assessment detailing all the risks that have and will be encoun
 
 # References
 
-We took inspiration from this repo that we found which helped us structure our project correctly https://github.com/Kimovi/Spring_PetClinic_DevOps
+We took inspiration from this [repo][GitHubLink] that we found which helped us structure our project correctly 
+
+[GitHubLink]: https://github.com/Kimovi/Spring_PetClinic_DevOps
 
 Also, to all the Trainers at QA who have helped us with all the teaching and answering of our question.
