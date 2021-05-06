@@ -1,28 +1,28 @@
 pipeline {
     agent any
     stages{
-        stage('0 - Configuration'){
+        stage('Configuration'){
             steps{
                 sh 'bash jenkins/configuration.sh'
             }
         }
-        stage('1 - Building'){
+        stage('Building'){
            steps{
                sh "docker-compose build"                                             
            }
        }
-        stage('2 - Pushing to DockerHub'){
+        stage('Pushing to DockerHub'){
            steps{                                             
                sh "docker-compose push"
            }
        }
-       stage('3 - Orchestration with Terraform'){
+       stage('Orchestration with Terraform'){
            steps{
                sh "echo 'Here Terraform is setting up the K8s cluster'"
                sh 'bash jenkins/orchestration.sh' 
            }
        }
-       stage('4 - Deployment with Kubernetes'){
+       stage('Deployment with Kubernetes'){
            steps{        
                sh "echo 'Here Kubernetes deploys the application'"        
                sh 'bash jenkins/deploy.sh'

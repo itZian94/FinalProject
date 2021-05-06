@@ -34,10 +34,6 @@ Here is an Image of our pipeline, this diagram shows how we have organised the r
 
 The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.
 
-# Test Results?
-
-Text
-
 # Risk Assessment
 
 ![Risk Assessment](/images/RiskAssessment.jpg)

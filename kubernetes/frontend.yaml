@@ -4,13 +4,11 @@ metadata:
   name: frontend
   labels:
     app: frontend
-
 spec:
   selector:
     matchLabels:
       app: frontend
   replicas: 2
-
   template:
     metadata:
       name: frontend
@@ -27,7 +25,6 @@ spec:
       imagePullSecrets:
         - name: regcred
 
----
 apiVersion: v1
 kind: Service
 metadata:

@@ -1,4 +1,3 @@
-
 aws eks --region eu-west-2 update-kubeconfig --name final_project_cluster
 
 cd kubernetes
