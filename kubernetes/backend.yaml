@@ -4,13 +4,11 @@ metadata:
   name: backend
   labels:
     app: backend
-
 spec:
   selector:
     matchLabels:
       app: backend
   replicas: 2
-
   template:
     metadata:
       name: backend
@@ -23,10 +21,9 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 9966
-
       imagePullSecrets:
         - name: regcred
----
+
 apiVersion: v1
 kind: Service
 metadata:
