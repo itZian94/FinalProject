@@ -2,7 +2,7 @@
 
 This was a group challenge to see how well we can apply the knowledge we have gained over the last 10 weeks within the given time constraints to deploy a prebuilt application using technologies including Terraform, Kubernetes, Docker, Jenkins, and AWS.
 
-One of the purposes of this project was for us to experience working to complete a deliverable as part of a team, this experience will be invaluable for your future interviews with clients.
+One of the purposes of this project was for us to experience working to complete a deliverable as part of a team, this experience will be invaluable for our future in DevOps
 
 # Requirements
 
