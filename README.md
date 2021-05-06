@@ -20,9 +20,9 @@ Running costs. What are your monthly estimates? How could they be improved?
 
 ![My Trello Board](images/TrelloBoard.jpg)
 
-My trello board progression, with a link to the most recent version [here][MyTrello]!
+Our trello board progression, with a link to the most recent version [here][MyTrello]!
 
-This shows you my backlog of tasks, what is currently being worked on and what has been completed.
+This shows you our backlog of tasks, what is currently being worked on and what has been completed.
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
