@@ -1,71 +1,51 @@
-# Final project
+# Final Project
 
-Text
+This was a group challenge to see how well we can apply the knowledge we have gained over the last 10 weeks within the given time constraints to deploy a prebuilt application using technologies including Terraform, Kubernetes, Docker, Jenkins, and AWS.
+
+One of the purposes of this project was for us to experience working to complete a deliverable as part of a team, this experience will be invaluable for your future interviews with clients.
 
 # Requirements
 
-Text
+You will need to plan, design, and implement a solution for automating the development workflows and deployments of this application. As part of your final deliverable, you will need to discuss the project in a presentation and demonstrate these workflows.
 
-# Test Analysis 
+What tools will work for you best? For example: Terraform, Kubernetes, Ansible etc. There is no restrictions or requirements on which ones to use; you should decide which you feel are most appropriate and justify their use.
 
-Text
+Multiple Environment support: How can a developer test their new features on an environment before merging their changes to the main branch?
 
-# Tech Stack used
+How can changes on the GitHub repository automatically build and deploy to testing and live environments?
 
-Text
+Running costs. What are your monthly estimates? How could they be improved?
 
 # Trello Board
 
 ![My Trello Board](images/TrelloBoard.jpg)
 
-This is a link to my [Trello][MyTrello]! Board:
+My trello board progression, with a link to the most recent version [here][MyTrello]!
+
+This shows you my backlog of tasks, what is currently being worked on and what has been completed.
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
-
-# Database 
-
-Text
-
-# Software Architecture
-
-Text
 
 # Pipeline
 
 ![Development Pipeline](images/FinalProjectPipeline.jpg)
 
-Here is an Image of our pipeline
+Here is an Image of our pipeline, this diagram shows how we have organised the repo and then how once the application files have been pushed to main how they then filter through the said technologies we have used.
 
-# CI/CD pipeline
+The pipeline is automated with a Webhook to Jenkins from GitHub. It is then integrated using a Jenkinsfile, from that Jenkinsfile we have 5 steps; Configuration, building with Docker, pushing to Dockerhub, orchestration with Terraform and then deployment with Kubernetes. Once the deployment the application can be viewed online.
 
-The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.<br>
+The Configuration stage uses a shell script with sets up the machines with all the updates needed, and all the files downloaded to manage, prepare and setting up of the cluster. The Orchestration and Deployment stages again are both shell scripts and this initialises terraform and then applies the needed files.
 
-It follows this steps:</p>
+# Risk Assessment
 
-![Microservice Flowchart](image.jpg)
+![Risk Assessment](images/RiskAssessment.jpg)
 
-# Risk Analysis
+Here is our risk assessment detailing all the risks that have and will be encountered during this project.
 
+# References
 
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
-| :---        | :----:   |  :----:     |  :----:      |  :----:        |  :----:    |---:
-| Description |Evaluation| Likelihood  | Impact Level | Responsability |  Response  |  Control Measures  
+We took inspiration from this [GitHub][GitHubLink] repo that we found which helped us structure our project correctly 
 
+[GitHubLink]: https://github.com/Kimovi/Spring_PetClinic_DevOps
 
-# Acknowledgements and contributions
-
-
-Docker-compose ?? (Probably not)
-
-No
-
-Terraform 2
-Ansible 3
-Kubernetes 4 (Next week) 
-AWS 1
-
-
-
-Yes, I aknowledge and contribute.
-
-Yeeeah booi
+Also, to all the Trainers at QA who have helped us with all the teaching and answering of our question.

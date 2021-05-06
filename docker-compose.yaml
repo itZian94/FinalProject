@@ -1,21 +1,17 @@
-  
-version: "3"
-  
-  services:
+version: "3.8"
+services:
+
     backend:
-      image: snakecharmer2021/backend:latest
-      build: ./spring-petclinic-rest
-      ports:
-      - "9966:9966"
-  
+        image: docker.io/springcommunity/spring-petclinic-rest:latest
+        ports:
+        - target: 9966
+          published: 9966
+          protocol: tcp
+
     frontend:
-      image: snakecharmer2021/frontend:latest
-      build: ./spring-petclinic-angular
-      ports:
-      - "8080:8080"
-    nginx:
-      image: snakecharmer2021/nginx
-      build: ./kubernetes/nginx
-      ports:
-        - 80:80
-      container_name: nginx
+        build: ./spring-petclinic-angular/
+        image: ddiazsouto/frontend
+        ports:
+        - target: 8080
+          published: 8083
+          protocol: tcp

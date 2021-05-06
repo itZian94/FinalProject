@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  labels:
+    app: backend
+spec:
+  selector:
+    matchLabels:
+      app: backend
+  replicas: 2
+  template:
+    metadata:
+      name: backend
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: ddiazsouto/backend
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 9966
+      imagePullSecrets:
+        - name: regcred
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  selector:
+    app: backend
+  ports:
+  - port: 9966
+    targetPort: 9966
+    protocol: TCP
+  type: ClusterIP
