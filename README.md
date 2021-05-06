@@ -1,4 +1,4 @@
-# Final project
+# Final Project
 
 This was a group challenge to see how well we can apply the knowledge we have gained over the last 10 weeks within the given time constraints to deploy a prebuilt application using technologies including Terraform, Kubernetes, Docker, Jenkins, and AWS.
 
