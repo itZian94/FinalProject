@@ -32,7 +32,9 @@ This shows you my backlog of tasks, what is currently being worked on and what h
 
 Here is an Image of our pipeline, this diagram shows how we have organised the repo and then how once the application files have been pushed to main how they then filter through the said technologies we have used.
 
-The pipeline is automated with a Webhook from GitHub and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.
+The pipeline is automated with a Webhook to Jenkins from GitHub. It is then integrated using a Jenkinsfile, from that Jenkinsfile we have 5 steps; Configuration, building with Docker, pushing to Dockerhub, orchestration with Terraform and then deployment with Kubernetes. Once the deployment the application can be viewed online.
+
+The Configuration stage uses a shell script with sets up the machines with all the updates needed, and all the files downloaded to manage, prepare and setting up of the cluster. The Orchestration and Deployment stages again are both shell scripts and this initialises terraform and then applies the needed files.
 
 # Risk Assessment
 
