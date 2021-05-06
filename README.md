@@ -44,7 +44,7 @@ Here is our risk assessment detailing all the risks that have and will be encoun
 
 # References
 
-We took inspiration from this [repo][GitHubLink] that we found which helped us structure our project correctly 
+We took inspiration from this [GitHub][GitHubLink]repo that we found which helped us structure our project correctly 
 
 [GitHubLink]: https://github.com/Kimovi/Spring_PetClinic_DevOps
 
