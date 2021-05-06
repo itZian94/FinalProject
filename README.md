@@ -36,9 +36,8 @@ The pipeline is automated with a Webhook from github and integrated using a Jenk
 
 # Risk Assessment
 
-![Risk Assessment](/images/RiskAssessment.jpg)
+![Risk Assessment](images/RiskAssessment.jpg
 
 Here is our risk assessments deatailing all the risks that have and will be encountered during this project.
-
 
 # Refrences
