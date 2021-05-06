@@ -9,5 +9,5 @@ kubectl apply -f ./nginx/nginxDeployment.yaml
 
 echo
 echo
-echo Access the plication through the following IP:
+echo Access the aplication through the following IP:
 kubectl get svc | grep balanceload | gawk '{print $4}'
