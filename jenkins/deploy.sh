@@ -7,5 +7,7 @@ kubectl apply -f nginxService.yaml
 kubectl apply -f ./nginx/configmap.yaml
 kubectl apply -f ./nginx/nginxDeployment.yaml
 
+echo
+echo
 echo Access the plication through the following IP:
 kubectl get svc | grep balanceload | gawk '{print $4}'
