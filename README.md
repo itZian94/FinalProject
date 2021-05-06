@@ -22,7 +22,7 @@ Running costs. What are your monthly estimates? How could they be improved?
 
 My trello board progression, with a link to the most recent version [here][MyTrello]!!
 
-This shows you my backlog of tasks, what is currently being worked on and also what has been completed.
+This shows you my backlog of tasks, what is currently being worked on and what has been completed.
 
 [MyTrello]: https://trello.com/b/0i1GmcuQ/final-project
 
@@ -32,16 +32,16 @@ This shows you my backlog of tasks, what is currently being worked on and also w
 
 Here is an Image of our pipeline, this diagram shows how we have organised the repo and then how once the application files have been pushed to main how they then filter through the said technologies we have used.
 
-The pipeline is automated with a Webhook from github and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.
+The pipeline is automated with a Webhook from GitHub and integrated using a Jenkinsfile, from there we use docker commands, docker-compose for a unified configuration, docker swarm for deployment and Ansible for configuration management.
 
 # Risk Assessment
 
 ![Risk Assessment](images/RiskAssessment.jpg)
 
-Here is our risk assessments deatailing all the risks that have and will be encountered during this project.
+Here is our risk assessment detailing all the risks that have and will be encountered during this project.
 
-# Refrences
+# References
 
 We took inspiration from this repo that we found which helped us structure our project correctly https://github.com/Kimovi/Spring_PetClinic_DevOps
 
-Also to all the Trainers at QA who have helped us with all the teaching and answering of our question.
+Also, to all the Trainers at QA who have helped us with all the teaching and answering of our question.
