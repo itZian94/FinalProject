@@ -28,5 +28,11 @@ pipeline {
                sh 'bash jenkins/deploy.sh'
            }                                            
        }
+       stage('Deployment with Kubernetes'){
+           steps{        
+               sh "echo Access the plication through the following IP:"    
+               sh "kubectl get svc | grep balanceload | gawk '{print $4}' "
+           }                                            
+       }
     }
 }
