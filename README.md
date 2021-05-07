@@ -49,3 +49,5 @@ We took inspiration from this [GitHub][GitHubLink] repo that we found which help
 [GitHubLink]: https://github.com/Kimovi/Spring_PetClinic_DevOps
 
 Also, to all the Trainers at QA who have helped us with all the teaching and answering of our question.
+
+Dan, Ian, Kelvin and Ollie
